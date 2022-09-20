@@ -1,4 +1,4 @@
-module github.com/marten-seemann/webtransport-go
+module github.com/MathiasGS/webtransport-go
 
 go 1.18
 
