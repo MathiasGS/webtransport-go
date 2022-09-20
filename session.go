@@ -350,3 +350,7 @@ func (c *Session) Close() error {
 	<-c.ctx.Done()
 	return err
 }
+
+func (c *Session) SessionID() uint64 {
+	return uint64(c.sessionID)
+}
